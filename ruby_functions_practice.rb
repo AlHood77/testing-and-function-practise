@@ -39,25 +39,56 @@
 
 # p join_string "Mary had a little lamb", "its fleece was white as snow"
 
-# def add_string_as_number (string_1, string_2).to_i
-#     sum = (string_1 + string_2
-#     return sum
+# def add_string_as_number (string_1, string_2)
+#     return (string_1.to_i + string_2.to_i)
 # end
 
-# p sum ("1", "2")
+# p add_string_as_number "1", "2"
 
-def number_to_full_name__month_1(month1)
-    return 
+# def number_to_full_month_name(month)
+#     if month == 1
+#       return "January"
+#     elsif month == 3
+#       return "March"
+#     elsif month == 9
+#       return "September"
+#     else
+#       return "Input not recognised"
+#     end
+#   end
+
+# p number_to_full_month_name 9
+
+# p number_to_full_month_name 9
+
+
+# def number_to_full_month_name(month)
+#     case
+#     when month == 1
+#       return "January"
+#     when month == 3
+#       return "March"
+#     when month == 9
+#       return "September"
+#     else
+#       return "Nil"
+#     end
+#   end
+
+# p number_to_full_month_name 9
+
+
+# def volume_of_cube (edge)
+#     return edge **3
+# end
+
+# p volume_of_cube 3
+
+def volume_of_sphere (radius)
+    return (4/3) * Math::PI * (radius **3)
 end
 
-
-
-
-
-
-
-
-
+p volume_of_sphere (1.2905)
 
 
 
