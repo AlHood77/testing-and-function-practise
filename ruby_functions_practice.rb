@@ -84,15 +84,18 @@
 
 # p volume_of_cube 3
 
-def volume_of_sphere (radius)
-    return (4/3) * Math::PI * (radius **3)
+# def volume_of_sphere (radius)
+#     return (4/3) * Math::PI * (radius **3)
+# end
+
+# p volume_of_sphere (1.2905)
+
+
+def convert_fahrenheit_to_celsius (fahrenheit)
+    return (fahrenheit/3) * (5/9)
 end
 
-p volume_of_sphere (1.2905)
-
-
-
-
+p convert_fahrenheit_to_celsius (32)
 
 
 
